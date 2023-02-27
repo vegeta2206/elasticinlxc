@@ -34,3 +34,9 @@ Create elastic cluster in a nutshell with LXC Containers
 #### 04_check_services.sh
 
 - print all LXC containers linked to elastic cluster (listen port/ip, elk indexes, nodes roles
+
+## WARNING : If your LXD/LXC server use NAT mode, simply add a proxy device in LXC with 
+```
+$ lxc config device add kibana mykibanaport proxy listen=tcp:0.0.0.0:5601 connect=tcp:10.221.227.133:5601
+```
+Your Kibana will be joinable through your server. Like mine http://192.168.1.99:5601/
