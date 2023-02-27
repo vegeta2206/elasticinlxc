@@ -1,0 +1,11 @@
+cluster.name: citadel
+node.name: elkdata1
+node.master: false
+node.data: true
+node.ingest: true
+path.data: /var/lib/elasticsearch
+path.logs: /var/log/elasticsearch
+bootstrap.memory_lock: false
+network.host: 0.0.0.0
+http.port: 9200
+

@@ -1,0 +1,8 @@
+path.data: /var/lib/logstash
+pipeline.workers: 4
+config.reload.automatic: false
+log.level: info
+path.logs: /var/log/logstash
+xpack.monitoring.enabled: false
+xpack.management.enabled: false
+

@@ -1,0 +1,11 @@
+	# 
+	# proxies to used if required
+	#
+	#Acquire::http::proxy "http://<login>:<pwd>@<host>:<ip>";
+	#Acquire::https::proxy "http://<login>:<pwd>@<host>:<ip>";
+	#
+	# disable proxy use for :
+	#
+	#Acquire::http::Proxy {
+	#        fr.archive.ubuntu.com DIRECT;
+	#};

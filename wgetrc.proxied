@@ -1,0 +1,4 @@
+https_proxy = http://<login>:<pwd>@<host>:<ip>
+http_proxy = http://<login>:<pwd>@<host>:<ip>
+ftp_proxy = http://<login>:<pwd>@<host>:<ip>
+use_proxy = on
